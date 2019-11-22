@@ -30,6 +30,7 @@
 include_directories (
   ${PROJECT_BINARY_DIR}/include
   ${PROJECT_SOURCE_DIR}/ym-common/include
+  ${CMAKE_CURRENT_SOURCE_DIR}/include
   )
 
 
@@ -42,7 +43,7 @@ include_directories (
 # サブディレクトリの設定
 # ===================================================================
 
-add_subdirectory ( c++-test )
+add_subdirectory ( c++-tests )
 
 
 # ===================================================================

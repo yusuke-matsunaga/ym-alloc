@@ -20,7 +20,7 @@ TEST(SimpleAllocTest, test1)
   SizeType msize = 1025;
   auto p = alloc.get_memory(msize);
 
-  alloc.put_memory(p, msize);
+  alloc.put_memory(msize, p);
 }
 
 END_NAMESPACE_YM
